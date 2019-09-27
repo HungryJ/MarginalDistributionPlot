@@ -26,6 +26,8 @@ Must be either one of ['mean', 'median', 'std', 'skewness', 'kurtosis', 'unique_
 variable_choice : How to choose 15 variable to be plotted.
 Must be either one of ['equally_spaced', 'min', 'max'] or an length 15 array which is consist of variable indices 
 
+label : label of each observation to use for color code
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -37,4 +39,4 @@ feat = pd.read_pickle('./jive/from_longleaf/y_train_y_activ_feat.pkl')
 mdp(feat, summary_stat='mean', variable_choice='equally_spaced')
 ```
 
-![alt text](https://github.com/HungryJ/images/example1.png "Logo Title Text 1")
+![alt text](images/example1.png)
