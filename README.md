@@ -15,18 +15,18 @@ python setup.py install
 ## Example
 mdp function will generate marginal distribution plots.  
 Inputs for mdp function are following.  
-mdp(data_object, summary_stat='mean', variable_choice = 'equally_spaced', label = None)  
+_mdp(data_object, summary_stat='mean', variable_choice = 'equally_spaced', label = None)_
 
-data_object : either 2D numpy array or pandas dataframe.  
+**data_object** : either 2D numpy array or pandas dataframe.  
 Rows have to be variables and columns have to be objects.  
 
-summary_stat : Summary statistic to use for representing each variable
+**summary_stat** : Summary statistic to use for representing each variable
 Must be either one of ['mean', 'median', 'std', 'skewness', 'kurtosis', 'unique_obs'] or a fuction that takes a vector as input at return a scalar. 
 
-variable_choice : How to choose 15 variable to be plotted.
+**variable_choice** : How to choose 15 variable to be plotted.
 Must be either one of ['equally_spaced', 'min', 'max'] or an length 15 array which is consist of variable indices 
 
-label : label of each observation to use for color code
+**label** : label of each observation to use for color code
 
 ```python
 import matplotlib.pyplot as plt
