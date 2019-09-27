@@ -38,4 +38,3 @@ mdp(feat, summary_stat='mean', variable_choice='equally_spaced')
 ```
 
 ![alt text](https://github.com/HungryJ/images/example1.png "Logo Title Text 1")
-
