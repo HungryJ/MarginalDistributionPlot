@@ -1,6 +1,7 @@
 # MarginalDistributionPlot
 
 **author**: Jonghwan Yoo
+
 Marginal Distribution plots is useful exploratory data anaylsis especially when you have many variables which makes it hard to see data visualization. The main idea is to select a representative variables to actually look at their distributions. Selecting representative variables is based on one-dimensional summary statistic of each variable such as mean, standard deviation, etc.  
 In summary, marginal distribution plot sort one dimensional statistic(mean, std, skewness, etc.) of all variables and select 15 representative variables(15 minimum, 15 maximum or equally spaced summary statistics) and show their distributions. 
 
