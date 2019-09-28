@@ -36,7 +36,7 @@ Must be either one of ['equally_spaced', 'min', 'max'] or an length 15 array whi
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from marginal_dist_plot import mdp
+from mdp.marginal_dist_plot import mdp
 
 feat = pd.read_pickle('./jive/from_longleaf/y_train_y_activ_feat.pkl')
 
